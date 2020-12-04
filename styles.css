@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+div{
+    display: flex;
+    width: 25%;
+    height: 50%;
+    background-color: bisque;
+    border-radius: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+img{
+    width: 40%;
+    margin-bottom: 10%;
+}
+
+#username,
+#password{
+    width: 90%;
+    height: 40px;
+    padding-left: 5px;
+    margin-bottom: 3%;
+    border: 1px #ddbbdd solid;
+    border-radius: 5px;
+    outline: none;
+}
+
+
+#login{
+width: 90%;
+height: 40px;
+margin-bottom: 3%;
+border: 1px #ddbbdd;
+border-radius: 5px;
+background-color: thistle;
+color: teal;
+font-weight: bold;
+cursor: pointer;
+outline: none;
+
+}
+
+#login:hover{
+    background-color: turquoise;
+    border: violet;
+   
+}
